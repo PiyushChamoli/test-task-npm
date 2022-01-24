@@ -25070,9 +25070,9 @@ console.log(moment().subtract(7, 'days').calendar()); // subtracts 7 months to c
 
 console.log(moment().subtract(7, 'months').calendar()); // date1: 2014-11-11
 
-console.log(moment("20141111", "YYYYMMDD").fromNow()); // date2: 2015-09-11
+console.log(moment().isValid("2014-11-11")); // date2: 2015-09-11
 
-console.log(moment("20150911", "YYYYMMDD").fromNow()); //Lodash
+console.log(moment().isValid("2015-09-11")); //Lodash
 
 var arr = [1, 9, 5, 8, 3, 7];
 var arr2 = [5.6, 7.6, 8.9, 2.4, 5, 2];
@@ -25109,7 +25109,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35011" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "46157" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

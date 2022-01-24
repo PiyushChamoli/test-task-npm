@@ -31,10 +31,10 @@ console.log(moment().subtract(7, 'days').calendar());
 console.log(moment().subtract(7, 'months').calendar());
 
 // date1: 2014-11-11
-console.log(moment("20141111", "YYYYMMDD").fromNow());
+console.log(moment().isValid("2014-11-11"));
 
 // date2: 2015-09-11
-console.log(moment("20150911", "YYYYMMDD").fromNow());
+console.log(moment().isValid("2015-09-11"));
 
 //Lodash
 
